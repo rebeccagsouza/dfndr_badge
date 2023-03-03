@@ -1,0 +1,23 @@
+{
+  "name": "security-badge",
+  "version": "1.0.0",
+  "description": "Security Badge for Cyberlabs",
+  "main": "dist/cyberlabs-security-badge.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "dev": "rollup --config rollup.config.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.psafe.net:frontend/libs/security-badge.git"
+  },
+  "author": "Gabriel Mule <gabriel.mule@cyberlabs.com.br>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "rollup": "^2.70.2",
+    "rollup-obfuscator": "^3.0.1"
+  }
+}
